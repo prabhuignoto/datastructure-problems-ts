@@ -74,6 +74,25 @@ export default class LinkedList<T> {
 
   delete(value: T) {
     const node = this.find(value);
+    if (!node) {
+      return;
+    }
+    let startNode: LinkedListNode<T> | null = this.head;
+
+    if (startNode) {
+      // make sure the head is different from value
+      while (startNode && startNode.value === value) {
+        this.deleteHead();
+        startNode = startNode.next;
+      }
+
+      while (startNode && startNode.next) {
+        if (startNode.next.value === value) {
+          startNode.next = startNode.next.next;
+        }
+        startNode = startNode.next;
+      }
+    }
   }
 
   deleteTail() {
