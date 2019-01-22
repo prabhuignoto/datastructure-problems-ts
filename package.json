@@ -4,7 +4,7 @@
   "description": "Linkedlist Programming problems",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "ts-mocha --opts ./mocha.opts"
   },
   "author": "Prabhu Murthy",
   "license": "ISC",
