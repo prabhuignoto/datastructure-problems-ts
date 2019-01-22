@@ -1,6 +1,6 @@
-import LinkedList, { LinkedListNode } from "../Linkedlist/index";
+import LinkedList, { LinkedListNode } from "../../Linkedlist";
 import { expect } from "chai";
-import MergeList from "./MergeSortedList";
+import MergeList from "../MergeSortedList";
 
 describe("Tests for MergeSortedList", () => {
   it("Check if Merge works correctly", () => {

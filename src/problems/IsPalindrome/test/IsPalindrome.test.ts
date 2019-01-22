@@ -1,5 +1,5 @@
-import LinkedList from "../Linkedlist/index";
-import { IsPalindrome } from "./IsPalindrome";
+import LinkedList from "../../Linkedlist";
+import { IsPalindrome } from "../IsPalindrome";
 import { expect } from "chai";
 
 describe("Tests for Linkedlist - IsPalindrome", () => {

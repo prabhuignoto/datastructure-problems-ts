@@ -1,5 +1,5 @@
-import GetMiddle from "./GetMiddle";
-import Linkedlist from "../Linkedlist/index";
+import GetMiddle from "../GetMiddle";
+import Linkedlist from "../../Linkedlist";
 import { expect } from "chai";
 
 describe("Tests for GetMiddle", () => {

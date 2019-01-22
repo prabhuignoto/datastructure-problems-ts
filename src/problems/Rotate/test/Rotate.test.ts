@@ -1,6 +1,6 @@
 import { expect } from "chai";
-import LinkedList from "../Linkedlist/index";
-import { Rotate } from "./Rotate";
+import LinkedList from "../../Linkedlist";
+import { Rotate } from "../Rotate";
 
 
 describe("Tests for Linkedlist rotate", () => {

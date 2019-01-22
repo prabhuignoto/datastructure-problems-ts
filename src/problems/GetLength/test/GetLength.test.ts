@@ -1,5 +1,5 @@
-import GetLength from "./GetLength";
-import Linkedlist from "../Linkedlist/index";
+import GetLength from "../GetLength";
+import Linkedlist from "../../Linkedlist";
 import { expect } from "chai";
 
 describe("GetLength tests for Linkedlist", () => {
