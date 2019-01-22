@@ -13,6 +13,7 @@ Collection of common Linkedlist problems solved using Typescript.
 8. [Traverse a Linkedlist (forward/backward)](./src/problems/Traverse)
 9. [Merge two sorted Linkedlist](./src/problems/MergeSortedList)
 10. [Sort a Linkedlist of values(0,1,2)](./src/problems/Sort012)
+11. [Validate if a Linkedlist is a Palindrome](./src/problems/IsPalindrome)
 
 ## Installation
 
