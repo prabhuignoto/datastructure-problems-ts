@@ -1,0 +1,21 @@
+{
+  "name": "Linkedlist",
+  "version": "1.0.0",
+  "description": "Linkedlist Programming problems",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Prabhu Murthy",
+  "license": "ISC",
+  "dependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/expect": "^1.20.3",
+    "@types/mocha": "^5.2.5",
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "ts-mocha": "^2.0.0",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.2.4"
+  }
+}
