@@ -8,6 +8,11 @@ Collection of common Linkedlist problems solved using Typescript.
 3. [Implement Stack using Linkedlist](./src/problems/Stack)
 4. [Get the Length of a Linkedlist](./src/problems/GetLength)
 5. [Get the Middle node of a Linkedlist](./src/problems/GetMiddle)
+6. [Reverse a Linkedlist](./src/problems/Reverse)
+7. [Rotate a Linkedlist N times](./src/problems/Rotate)
+8. [Traverse a Linkedlist (forward/backward)](./src/problems/Traverse)
+9. [Merge two sorted Linkedlist](./src/problems/MergeSortedList)
+10. [Sort a Linkedlist of values(0,1,2)](./src/problems/Sort012)
 
 ## Installation
 
