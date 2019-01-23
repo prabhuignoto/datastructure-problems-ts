@@ -1,7 +1,7 @@
 # Linkedlist Problems
 [![Build Status](https://travis-ci.org/prabhuignoto/linkedlist-problems-ts.svg?branch=master)](https://travis-ci.org/prabhuignoto/linkedlist-problems-ts)
 
-Collection of common Linkedlist problems solved using Typescript.
+Collection of Linkedlist problems solved with Typescript.
 
 ## Problems
 1. [LinkedList Datastructure](./src/problems/Linkedlist)
