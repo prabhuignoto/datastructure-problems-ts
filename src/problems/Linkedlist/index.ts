@@ -112,7 +112,7 @@ export default class LinkedList<T> {
     }
   }
 
-  toString() {
+  toString(): string {
     let startNode = this.head;
     let outString = "";
 

@@ -1,15 +1,20 @@
 import LinkedList from "../Linkedlist";
 
-export function Sort<T extends number>(List: LinkedList<T>) {
+export function Sort<T extends number>(
+  List: LinkedList<T>
+): LinkedList<T> | null {
+  // counters for counting the occurrences of 0,1,2 in the Linkedlist
   let count0: number = 0;
   let count1: number = 0;
   let count2: number = 0;
   let startNode = List.head;
 
+  // return if there are no elements
   if (!startNode) {
-    return;
+    return null;
   }
 
+  // start counting the occurrences
   while (startNode) {
     if (startNode.value === 0) {
       count0 += 1;
@@ -23,6 +28,8 @@ export function Sort<T extends number>(List: LinkedList<T>) {
 
   startNode = List.head;
 
+  // overwrite the linked list form the start
+  // and fill 0 first and then 1 and 2.
   while (startNode) {
     let value: number = NaN;
     if (count0 > 0) {
@@ -38,4 +45,6 @@ export function Sort<T extends number>(List: LinkedList<T>) {
     startNode.value = <T>value;
     startNode = startNode.next;
   }
+
+  return List;
 }
