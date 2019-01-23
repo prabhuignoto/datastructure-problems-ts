@@ -1,5 +1,5 @@
 import { expect } from "chai";
-import LinkedList from "../../LinkedList";
+import LinkedList from "../../Linkedlist";
 import { Sort } from "../Sort012";
 
 describe("Tests for Sort012", () => {

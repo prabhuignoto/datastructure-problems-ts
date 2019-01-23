@@ -1,5 +1,5 @@
 import { expect } from "chai";
-import LinkedList from "../../LinkedList";
+import LinkedList from "../../Linkedlist";
 import { Reverse } from "../Reverse";
 
 describe("Tests for Reverse", () => {
