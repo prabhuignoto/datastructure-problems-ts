@@ -1,1 +1,1 @@
---recursive ./src/problems/**/test/*.test.ts
+--recursive ./src/problems/**/**/test/*.test.ts
