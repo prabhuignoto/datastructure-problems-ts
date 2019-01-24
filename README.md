@@ -1,6 +1,6 @@
 # Datastructure Problems
 
-[![Build Status](https://travis-ci.org/prabhuignoto/linkedlist-problems-ts.svg?branch=master)](https://travis-ci.org/prabhuignoto/linkedlist-problems-ts)
+[![Build Status](https://travis-ci.org/prabhuignoto/datastructure-problems-ts.svg?branch=master)](https://travis-ci.org/prabhuignoto/datastructure-problems-ts)
 
 Collection of Datastructure problems solved with Typescript.
 
