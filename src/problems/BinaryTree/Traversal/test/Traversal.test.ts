@@ -1,5 +1,5 @@
 import { expect } from "chai";
-import BinaryTreeNode from "../..";
+import BinaryTreeNode from "../../BinaryTree";
 import DFT from "../DepthFirstTraversal";
 import LOT from "../LevelOrderTraversal";
 
