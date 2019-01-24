@@ -1,5 +1,5 @@
 import BinaryTreeNode from "../BinaryTree";
-import Queue from "../../LinkedList/Queue/queue";
+import Queue from "../../Linkedlist/Queue/queue";
 
 export default function IsIdentical<T>(
   NodeOne: BinaryTreeNode<T>,
