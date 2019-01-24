@@ -1,5 +1,5 @@
-import BinaryTreeNode from "..";
-import Queue from "../../../LinkedList/Queue/queue";
+import BinaryTreeNode from "../BinaryTree";
+import Queue from "../../LinkedList/Queue/queue";
 
 export default function LOT<T>(
   Node: BinaryTreeNode<T>,

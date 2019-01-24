@@ -1,4 +1,4 @@
-import BinaryTreeNode from "..";
+import BinaryTreeNode from "../BinaryTree";
 
 export default function DFT<T>(
   Node: BinaryTreeNode<T>,
