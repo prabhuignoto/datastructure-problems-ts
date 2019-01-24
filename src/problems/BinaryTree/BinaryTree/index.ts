@@ -3,14 +3,14 @@ export default class BinaryTreeNode<T> {
   public leftChild: BinaryTreeNode<T> | null;
   public rightChild: BinaryTreeNode<T> | null;
 
-  constructor(public value: T) {
+  constructor(public value: T | undefined) {
     this.parent = null;
     this.leftChild = null;
     this.rightChild = null;
     this.value = value;
   }
 
-  setValue(value: T) {
+  setValue(value: T | undefined) {
     this.value = value;
   }
 
