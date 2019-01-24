@@ -17,19 +17,21 @@ export default class LinkedList<T> {
     this.tail = null;
   }
 
-  append(value: T) {
+  append(value: T): LinkedListNode<T> {
     const node = new LinkedListNode(value, null);
 
     if (!this.head) {
       this.head = node;
       this.tail = node;
-      return;
+      return node;
     }
 
     if (this.tail) {
       this.tail.next = node;
       this.tail = node;
     }
+
+    return node;
   }
 
   prepend(value: T) {
@@ -37,9 +39,9 @@ export default class LinkedList<T> {
     this.head = node;
   }
 
-  deleteHead() {
+  deleteHead(): LinkedListNode<T> | null {
     if (!this.head) {
-      return;
+      return null;
     }
     let deleteHead = null;
 

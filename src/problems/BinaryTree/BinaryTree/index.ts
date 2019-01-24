@@ -14,6 +14,22 @@ export default class BinaryTreeNode<T> {
     this.value = value;
   }
 
+  get Left(): BinaryTreeNode<T> | null {
+    if(this.leftChild) {
+      return this.leftChild;
+    } else {
+      return null;
+    }
+  }
+
+  get Right(): BinaryTreeNode<T> | null {
+    if(this.rightChild) {
+      return this.rightChild;
+    } else {
+      return null;
+    }
+  }
+
   setLeftChild(node: BinaryTreeNode<T>): void {
     if (!node) {
       return;
