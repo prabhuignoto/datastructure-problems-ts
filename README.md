@@ -4,7 +4,7 @@
 
 Collection of Datastructure problems solved with Typescript.
 
-## Linkedlist
+## LinkedList
 
 1. [LinkedList Datastructure](./src/problems/Linkedlist/LinkedList)
 2. [Implement a Queue using Linkedlist](./src/problems/Linkedlist/Queue)
@@ -17,6 +17,10 @@ Collection of Datastructure problems solved with Typescript.
 9. [Merge two sorted Linkedlists](./src/problems/Linkedlist/MergeSortedList)
 10. [Sort a Linkedlist of values(0,1,2)](./src/problems/Linkedlist/Sort012)
 11. [Validate if a Linkedlist is a Palindrome or not](./src/problems/Linkedlist/IsPalindrome)
+
+## BinaryTree
+1.  [BinaryTree Datastructure](./src/problems/BinaryTree/BinaryTree)
+
 
 ## Installation
 
