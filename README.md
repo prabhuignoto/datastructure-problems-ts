@@ -22,6 +22,8 @@ Collection of Datastructure problems solved with Typescript.
 1.  [BinaryTree Datastructure](./src/problems/BinaryTree/BinaryTree)
 2.  [Depth First Traversal](./src/problems/BinaryTree/Traversal)
 3.  [Level Order Traversal](./src/problems/BinaryTree/Traversal)
+4.  [Binary Search Tree](./src/problems/BinaryTree/BinarySearchTree)
+5.  [Count the Number of leaves in a Tree](./src/problems/BinaryTree/CountLeaves)
 
 
 ## Installation
