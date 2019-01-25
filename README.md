@@ -25,6 +25,9 @@ Collection of Datastructure problems solved with Typescript.
 4.  [Binary Search Tree](./src/problems/BinaryTree/BinarySearchTree)
 5.  [Count the Number of leaves in a Tree](./src/problems/BinaryTree/CountLeaves)
 
+## Arrays
+1.  [Remove Duplicates](./src/problems/Arrays/Duplicates)
+2.  [Find all Leaders in a Array](./src/problems/Arrays/Leaders)
 
 ## Installation
 

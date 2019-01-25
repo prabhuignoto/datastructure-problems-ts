@@ -4,7 +4,26 @@
   "description": "Linkedlist Programming problems",
   "main": "index.js",
   "scripts": {
-    "test": "ts-mocha --opts ./mocha.opts"
+    "test": "ts-mocha --opts ./mocha.opts",
+    "coverage": "nyc ts-mocha"
+  },
+  "nyc": {
+    "extension": [
+      ".ts"
+    ],
+    "include": [
+      "./src/problems/**/**/test/*.test.ts"
+    ],
+    "require": [
+      "ts-node/register"
+    ],
+    "reporter": [
+      "text-summary",
+      "html"
+    ],
+    "sourceMap": true,
+    "instrument": true,
+    "all": true
   },
   "author": "Prabhu Murthy",
   "license": "ISC",
@@ -12,8 +31,10 @@
     "@types/chai": "^4.1.7",
     "@types/expect": "^1.20.3",
     "@types/mocha": "^5.2.5",
+    "@types/node": "^10.12.18",
     "chai": "^4.2.0",
     "mocha": "^5.2.0",
+    "nyc": "^13.1.0",
     "ts-mocha": "^2.0.0",
     "ts-node": "^7.0.1",
     "typescript": "^3.2.4"
