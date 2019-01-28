@@ -15,7 +15,7 @@ export default class BinaryTreeNode<T> {
   }
 
   get Left(): BinaryTreeNode<T> | null {
-    if(this.leftChild) {
+    if (this.leftChild) {
       return this.leftChild;
     } else {
       return null;
@@ -23,16 +23,16 @@ export default class BinaryTreeNode<T> {
   }
 
   get Right(): BinaryTreeNode<T> | null {
-    if(this.rightChild) {
+    if (this.rightChild) {
       return this.rightChild;
     } else {
       return null;
     }
   }
 
-  setLeftChild(node: BinaryTreeNode<T>): void {
+  setLeftChild(node: BinaryTreeNode<T>): BinaryTreeNode<T> | null {
     if (!node) {
-      return;
+      return null;
     }
 
     if (this.leftChild) {
@@ -41,11 +41,13 @@ export default class BinaryTreeNode<T> {
 
     this.leftChild = node;
     this.leftChild.parent = this;
+
+    return this.leftChild;
   }
 
-  setRightChild(node: BinaryTreeNode<T>): void {
+  setRightChild(node: BinaryTreeNode<T>): BinaryTreeNode<T> | null {
     if (!node) {
-      return;
+      return null;
     }
 
     if (this.rightChild) {
@@ -54,38 +56,40 @@ export default class BinaryTreeNode<T> {
 
     this.rightChild = node;
     this.rightChild.parent = this;
+
+    return this.rightChild;
   }
 
   removeChild(node: BinaryTreeNode<T>): void {
-    if(!node) {
+    if (!node) {
       return;
     }
 
-    if(this.leftChild && this.leftChild === node) {
+    if (this.leftChild && this.leftChild === node) {
       this.leftChild = null;
     }
 
-    if(this.rightChild && this.rightChild === node) {
+    if (this.rightChild && this.rightChild === node) {
       this.rightChild = null;
     }
   }
 
   replaceChild(oldNode: BinaryTreeNode<T>, newNode: BinaryTreeNode<T>): void {
-    if(!oldNode && !newNode) {
+    if (!oldNode && !newNode) {
       return;
     }
 
-    if(this.leftChild && this.leftChild === oldNode) {
+    if (this.leftChild && this.leftChild === oldNode) {
       this.leftChild = newNode;
     }
 
-    if(this.rightChild && this.rightChild === oldNode) {
+    if (this.rightChild && this.rightChild === oldNode) {
       this.rightChild = newNode;
     }
   }
 
   static Copy<T>(from: BinaryTreeNode<T>, to: BinaryTreeNode<T>) {
-    to.value  = from.value;
+    to.value = from.value;
     to.leftChild = from.leftChild;
     to.rightChild = from.rightChild;
     to.parent = from.parent;

@@ -15,12 +15,12 @@ export default function DFT<T>(
     const rightChild = Node.Right;
 
     if (leftChild) {
-      callback(leftChild.value);
+      callback(<T>leftChild.value);
       Traverse(leftChild);
     }
 
     if (rightChild) {
-      callback(rightChild.value);
+      callback(<T>rightChild.value);
       Traverse(rightChild);
     }
   };
