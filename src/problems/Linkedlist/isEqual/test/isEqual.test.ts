@@ -1,6 +1,6 @@
 import { expect } from "chai";
 import LinkedList from "../../Linkedlist";
-import IsEqual from "../isEQual";
+import IsEqual from "../isEqual";
 
 describe("Tests equality", () => {
   it("Test equality of strings", () => {
