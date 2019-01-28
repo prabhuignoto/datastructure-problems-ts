@@ -1,4 +1,4 @@
-# Datastructure Problems
+# DataStructures Problems
 
 [![Build Status](https://travis-ci.org/prabhuignoto/datastructure-problems-ts.svg?branch=master)](https://travis-ci.org/prabhuignoto/datastructure-problems-ts)
 
@@ -17,17 +17,20 @@ Collection of Datastructure problems solved with Typescript.
 9. [Merge two sorted Linkedlists](./src/problems/Linkedlist/MergeSortedList)
 10. [Sort a Linkedlist of values(0,1,2)](./src/problems/Linkedlist/Sort012)
 11. [Validate if a Linkedlist is a Palindrome or not](./src/problems/Linkedlist/IsPalindrome)
+12. [Insert a value in a sorted Linkedlist](./src/problems/Linkedlist/InsertInSortedList)
 
 ## BinaryTree
-1.  [BinaryTree Datastructure](./src/problems/BinaryTree/BinaryTree)
-2.  [Depth First Traversal](./src/problems/BinaryTree/Traversal)
-3.  [Level Order Traversal](./src/problems/BinaryTree/Traversal)
-4.  [Binary Search Tree](./src/problems/BinaryTree/BinarySearchTree)
-5.  [Count the Number of leaves in a Tree](./src/problems/BinaryTree/CountLeaves)
+
+1. [BinaryTree Datastructure](./src/problems/BinaryTree/BinaryTree)
+2. [Depth First Traversal](./src/problems/BinaryTree/Traversal)
+3. [Level Order Traversal](./src/problems/BinaryTree/Traversal)
+4. [Binary Search Tree](./src/problems/BinaryTree/BinarySearchTree)
+5. [Count the Number of leaves in a Tree](./src/problems/BinaryTree/CountLeaves)
 
 ## Arrays
-1.  [Remove Duplicates](./src/problems/Arrays/Duplicates)
-2.  [Find all Leaders in a Array](./src/problems/Arrays/Leaders)
+
+1. [Remove Duplicates](./src/problems/Arrays/Duplicates)
+2. [Find all Leaders in a Array](./src/problems/Arrays/Leaders)
 
 ## Installation
 
